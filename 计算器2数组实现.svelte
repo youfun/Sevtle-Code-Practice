@@ -2,7 +2,7 @@
   //import browser from "webextension-polyfill";
     let numdispay = 0;
 		$:numdispay=strtmp[strtmp.length-1].slice(1,)
-    let numstr = [];
+    let numstr = "";
 		$: numstr=strtmp.join("");
 	let strtmp =[" "];
 	let result=0
@@ -58,7 +58,7 @@
 
 												
 	// 重置按钮点击函数
-    function AC() {numstr = []; numdispay = 0;strtmp =[" "]; result=0}
+    function AC() {numstr =""; numdispay = 0;strtmp =[" "]; result=0}
 	
    // 四则运算按钮点击函数
     function add() {
