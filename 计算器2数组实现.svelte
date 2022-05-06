@@ -1,5 +1,5 @@
 <script src="//qidian.gtimg.com/lulu/theme/peak/js/common/all.js">
-  import browser from "webextension-polyfill";
+  //import browser from "webextension-polyfill";
     let numdispay = 0;
 		$:numdispay=strtmp[strtmp.length-1].slice(1,)
     let numstr = [];
